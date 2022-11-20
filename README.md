@@ -7,6 +7,8 @@ xmlp_v3.py增加了输出最多种类弹幕的功能，便于去除抽奖弹幕
   
 main.py是real-url弹幕部分main文件的改写，把print改为输入文件，这样可以后续生成ass文件压到视频里  
   
-SCp.py把SC弹幕位置上移，软件处理出来自动放在屏幕中间了，现在处理后自动置顶
+SCp.py把SC弹幕位置上移，软件处理出来自动放在屏幕中间了，现在处理后自动置顶  
   
-处理流程是danmu.xml----xmlp_v2.py---->new.ass----SCp.py---->new_SC.ass
+处理流程是danmu.xml----xmlp_v2.py---->new.ass----SCp.py---->new_SC.ass  
+
+flv2m4a.py是把某个目录中所有的flv文件中的音频抽取出来（m4a格式），存在原目录下，并**删除**原flv文件
