@@ -11,4 +11,6 @@ SCp.py把SC弹幕位置上移，软件处理出来自动放在屏幕中间了，
   
 处理流程是danmu.xml----xmlp_v2.py---->new.ass----SCp.py---->new_SC.ass  
 
-flv2m4a.py是调用ffmpeg把某个目录中所有的flv文件中的音频抽取出来（m4a格式），存在原目录下，并**删除**原flv文件
+flv2m4a.py是调用ffmpeg把某个目录中所有的flv文件中的音频抽取出来（m4a格式），存在原目录下，并**删除**原flv文件  
+
+config.json是为了方便linux下载的录播姬配置文件
