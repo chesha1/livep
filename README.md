@@ -13,4 +13,8 @@ SCp.py把SC弹幕位置上移，软件处理出来自动放在屏幕中间了，
 
 flv2m4a.py是调用ffmpeg把某个目录中所有的flv文件中的音频抽取出来（m4a格式），存在原目录下，并**删除**原flv文件  
 
-config.json是为了方便linux下载的录播姬配置文件
+config.json是为了方便linux下载的录播姬配置文件  
+
+command.sh 调用onedrive开始上传  
+sensor.sh 检测网速不大时调用command.sh  
+timer.sh 每天凌晨调用sensor.sh  
